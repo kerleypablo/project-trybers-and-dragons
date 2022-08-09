@@ -9,7 +9,7 @@ export default class Elf extends Race {
     dexterity: number,
   ) {
     super(name, dexterity);
-    this._maxLifePoints = 80;
+    this._maxLifePoints = 99;
     Elf._elfRacesInstances += 1;
   }
 
